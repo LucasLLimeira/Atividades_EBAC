@@ -1,2 +1,2 @@
-# Calculadora_IMC
-Calculadora de IMC feita no decorrer do curso da EBAC
+# Jogo de adivinhação
+Jogo de adivinhação feito no decorrer do curso da EBAC
