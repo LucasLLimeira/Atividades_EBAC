@@ -1,0 +1,51 @@
+.pagina {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.titulo {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: var(--cor-primaria);
+  margin-bottom: 0.75rem;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.vazio {
+  text-align: center;
+  color: #777;
+  font-size: 1rem;
+  padding: 3rem 0;
+}
+
+.vazio code {
+  background: #eee;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}

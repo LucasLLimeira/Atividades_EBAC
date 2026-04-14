@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--cor-primaria);
+  color: #fff;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.texto {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}

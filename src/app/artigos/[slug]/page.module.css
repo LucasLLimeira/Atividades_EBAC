@@ -1,0 +1,94 @@
+.pagina {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--cor-secundaria);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.voltar:hover {
+  color: var(--cor-primaria);
+}
+
+.artigo {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.cabecalho {
+  padding: 2.5rem 2.5rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.titulo {
+  font-size: clamp(1.6rem, 4vw, 2.25rem);
+  font-weight: 800;
+  color: var(--cor-primaria);
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.autor {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--cor-secundaria);
+}
+
+.separador {
+  color: #aaa;
+}
+
+.data {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.resumo {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  font-style: italic;
+  border-left: 4px solid var(--cor-secundaria);
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.conteudo {
+  padding: 2rem 2.5rem 2.5rem;
+}
+
+.paragrafo {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--cor-texto);
+  margin-bottom: 1.25rem;
+  white-space: pre-wrap;
+}
+
+.paragrafo:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .cabecalho,
+  .conteudo {
+    padding: 1.5rem;
+  }
+}
